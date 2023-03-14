@@ -1,0 +1,123 @@
+
+
+.main-div{
+    display: grid;
+    grid-auto-columns: 300px;
+    grid-auto-rows: 300px;
+    background-color: darkblue;
+    grid-template-areas: 
+    "lorem culpa oficia oficia"
+    "lorem mollit mollit fugiat"
+    "exercitation magna laboris fugiat "
+    "ullamco ullamco laboris consectetur"
+    "pariatur dolore dolore excepteur";
+    gap: 15px;
+}
+
+.div1{
+    display: flex;
+   grid-area: lorem;
+   background-color: aliceblue;
+   align-items: center;
+   justify-content: center;
+}
+
+.div2{
+    display: flex;
+   grid-area: culpa;
+   background-color: aliceblue;
+   align-items: center;
+   justify-content: center;
+}
+
+.div3{
+    display: flex;
+   grid-area: oficia ;
+   background-color: aliceblue;
+   align-items: center;
+   justify-content: center;
+}
+
+ .div4{
+    display: flex;
+    grid-area: mollit;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div5{
+    display: flex;
+    grid-area: fugiat;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div6{
+    display: flex;
+    grid-area: exercitation;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div7{
+    display: flex;
+    grid-area: magna;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div8{
+    display: flex;
+    grid-area: laboris;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div9{
+    display: flex;
+    grid-area: ullamco;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div10{
+    display: flex;
+    grid-area: consectetur;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div11{
+    display: flex;
+    grid-area: pariatur;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div12{
+    display: flex;
+    grid-area: dolore;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.div11{
+    display: flex;
+    grid-area: excepteur;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    background-color: aliceblue;
+}
